@@ -147,7 +147,7 @@ header {
   z-index:-1;
   position: absolute;
   right:0;
-  top:40px;
+  top:60px;
   border-bottom-left-radius: 70px;
 }
 
@@ -240,7 +240,8 @@ header {
 
 .divider {
   width:100%;
-  border: rgb(184, 184, 184) solid 0.5px;
+  background:rgb(211, 211, 211);
+  height:0.5px;
 }
 
 .features-category {
@@ -255,6 +256,18 @@ header {
   display:flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.features-img .features-img-background {
+  background-color: hsl(231, 69%, 60%);
+  width:80%;
+  height:200px;
+  z-index:-1;
+  position: absolute;
+  left:0;
+  top:60px;
+  border-bottom-right-radius: 70px;
 }
 
 .features-img img {
@@ -306,7 +319,7 @@ header {
 
 .extension-text h3 {
   font-family: 'Rubik', sans-serif;
-  font-size: 27px;
+  font-size: 25px;
   font-weight: 500;
   text-align: center;
   margin-bottom: 0;
@@ -328,15 +341,15 @@ header {
 }
 
 .search-engine-box {
-  width:80%;
+  width:75%;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   box-shadow: hsl(232, 38%, 92%) 5px 5px 15px;
   margin:30px 0;
-  padding:40px 0 30px 0;
-  border-radius: 20px;
+  padding:50px 0 30px 0;
+  border-radius: 15px;
 }
 
 .search-engine-box h4 {
@@ -345,6 +358,7 @@ header {
   font-family: 'Rubik', sans-serif;
   font-size: 20px;
 }
+
 .search-engine-box p {
   font-family: 'Rubik', sans-serif;
   color: hsl(229, 8%, 60%);
@@ -371,6 +385,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
 }
 
 .faq-text {
@@ -383,9 +398,14 @@ header {
 
 .faq-text h3 {
   font-family: 'Rubik', sans-serif;
+  font-size: 25px;
+  width:70%;
+  text-align: center;
 }
 .faq-text p {
   font-family: 'Rubik', sans-serif;
+  color: hsl(229, 8%, 60%);
+  text-align: center;
 }
 
 .questions {
@@ -394,19 +414,113 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
+}
+
+.faq-quest {
+  font-family: 'Rubik', sans-serif;
+  padding: 20px 0;
+  font-size: 14px;
 }
 
 .question-divider {
-  width:80%;
-  border:gray solid 1px;
+  width:85%;
+  background:rgb(211, 211, 211);
+  height:0.5px;
 }
 
 .question-wrap {
-  width:80%;
+  width:85%;
   display:flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.faq button {
+  border:none;
+  border-radius: 6px;
+  padding:20px 45px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: hsl(235, 23%, 90%) 5px 5px 5px;
+  background-color: hsl(231, 69%, 60%);
+  color:white;
+  margin: 50px 0 120px;
+}
+
+
+/*-----------FOOTER------*/
+
+
+footer {
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(231, 69%, 60%);
+}
+
+footer p, h2 {
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  text-align: center;
+  width: 90%;
+}
+footer .input-wrap {
+  width:80%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 60px 0;
+}
+footer input {
+  width:100%;
+  border:none;
+  padding:15px 0;
+  border-radius: 4px;
+
+}
+
+footer button {
+  width:100%;
+  border:none;
+  border-radius: 4px;  
+  padding: 15px;
+  background-color: hsl(0, 94%, 66%);
+  color:white;
+  margin-top: 20px;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+.bottom-border {
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:  hsl(229, 31%, 21%);
+  padding:60px 0;
+}
+
+.bottom-border img {
+
+}
+
+.bottom-border p {
+  text-transform: uppercase;
+}
+
+.bottom-border .soc-med {
+  margin:40px;
+}
+
+.bottom-border .soc-med img {
+  padding: 0 20px;
 }
 
 
