@@ -121,16 +121,19 @@ header {
 }
 
 #header-logo {
-  width:50%;
+  width:44%;
 }
 
 #hamburger {
-  width:7%;
+  width:6%;
 }
 
 
 .header-img {
   width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   height: 40vh;
 }
@@ -143,12 +146,12 @@ header {
 .header-img .header-img-background {
   background-color: hsl(231, 69%, 60%);
   width:80%;
-  height:200px;
+  height:210px;
   z-index:-1;
   position: absolute;
   right:0;
   top:60px;
-  border-bottom-left-radius: 70px;
+  border-bottom-left-radius: 100px;
 }
 
 .main-title-sec {
@@ -157,11 +160,13 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
 .main-title-sec h1 {
   font-family: 'Rubik', sans-serif;
   text-align: center;
+  font-weight: 500;
 }
 
 .main-title-sec p {
@@ -169,6 +174,7 @@ header {
   text-align: center;
   width:80%;
   color:hsl(229, 8%, 60%);
+  line-height: 27px;
 }
 
 .header-buttons {
@@ -228,6 +234,7 @@ header {
   width:90%;
   color:hsl(229, 8%, 60%);
   margin-bottom: 50px;
+  line-height: 27px;
 }
 
 .features-tabs {
@@ -262,16 +269,16 @@ header {
 .features-img .features-img-background {
   background-color: hsl(231, 69%, 60%);
   width:80%;
-  height:200px;
+  height:210px;
   z-index:-1;
   position: absolute;
   left:0;
-  top:60px;
-  border-bottom-right-radius: 70px;
+  top:35px;
+  border-bottom-right-radius: 100px;
 }
 
 .features-img img {
-  width:90%;
+  width:85%;
 }
 
 .features-desc {
@@ -295,13 +302,15 @@ header {
   text-align: center;
   width:90%;
   color: hsl(229, 8%, 60%);
+  line-height: 27px;
+
 }
 
 
 /*-----------EXTENSION SECTION ----------*/
 
 .extension-sec {
-  margin-top: 70px;
+  margin-top: 90px;
   width:100%;
   display:flex;
   flex-direction: column;
@@ -329,6 +338,8 @@ header {
   text-align: center;
   width:90%;
   color: hsl(229, 8%, 60%);
+  line-height: 27px;
+
 }
 
 .search-engines {
@@ -401,11 +412,15 @@ header {
   font-size: 25px;
   width:70%;
   text-align: center;
+  font-weight: 500;
+  margin:0;
 }
 .faq-text p {
   font-family: 'Rubik', sans-serif;
   color: hsl(229, 8%, 60%);
   text-align: center;
+  line-height: 27px;
+
 }
 
 .questions {
@@ -420,7 +435,7 @@ header {
 .faq-quest {
   font-family: 'Rubik', sans-serif;
   padding: 20px 0;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .question-divider {
@@ -440,7 +455,7 @@ header {
 .faq button {
   border:none;
   border-radius: 6px;
-  padding:20px 45px;
+  padding:18px 30px;
   font-family: 'Rubik', sans-serif;
   font-size: 14px;
   font-weight: 500;
@@ -460,6 +475,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
   background-color: hsl(231, 69%, 60%);
 }
 
@@ -469,20 +485,26 @@ footer p, h2 {
   text-align: center;
   width: 90%;
 }
+
+footer h2 {
+  margin:0;
+  font-weight: 500;
+}
+
 footer .input-wrap {
   width:80%;
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px 0 60px 0;
+  margin: 20px 0 70px 0;
 }
 footer input {
   width:100%;
   border:none;
   padding:15px 0;
   border-radius: 4px;
-
+  margin:20px 0;
 }
 
 footer button {
@@ -492,9 +514,13 @@ footer button {
   padding: 15px;
   background-color: hsl(0, 94%, 66%);
   color:white;
-  margin-top: 20px;
+  margin-top: 0px;
   font-family: 'Rubik', sans-serif;
 
+}
+
+.footerlogo {
+  margin:10px 0 30px 0;
 }
 
 .bottom-border {
@@ -508,7 +534,7 @@ footer button {
 }
 
 .bottom-border img {
-
+  margin-bottom: 20px;
 }
 
 .bottom-border p {
