@@ -259,6 +259,23 @@ header {
   align-items: center;
 }
 
+.divider1 {
+  width:30%;
+  background-color: hsl(0, 94%, 66%);
+  height:2px;
+}
+.divider2 {
+  width:30%;
+  background-color: hsl(0, 94%, 66%);
+  height:2px;
+}
+.divider3 {
+  width:30%;
+  background-color: hsl(0, 94%, 66%);
+  height:2px;
+}
+
+
 .features-wrap {
   width:100%;
 }
@@ -887,6 +904,26 @@ footer button {
 .features-tabs {
   display:flex;
   flex-direction: row;
+}
+
+.category-wrap {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider1 {
+  width:90%;
+  height:4px;
+}
+.divider2 {
+  width:90%;
+  height:4px;
+}
+.divider3 {
+  width:90%;
+  height:4px;
 }
 
 .features-category {
