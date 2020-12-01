@@ -94,21 +94,6 @@ tab3.addEventListener("click", slider3);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //the features sections you click on
 // let dotsNav = document.querySelector(".features-tabs");
 // let dots = Array.from(dotsNav.children);
@@ -137,46 +122,32 @@ tab3.addEventListener("click", slider3);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function showfeaturesImg1(){
-//     featuresImg1.style.display = "block";
-//     featuresImg2.style.display = "none";
-//     featuresImg3.style.display = "none";
-// }
-
-// cat1.addEventListener('click', showfeaturesImg1);
-
-
 //function to open and close the faq questions section 
 function openClose(){
     if(para1.style.display === "none"){
         para1.style.display = "block";
         arrowClose.style.display = "none";
         arrowOpen.style.display ="block";
+
+              
+        para2.style.display = "none";
+        arrowClose2.style.display = "block";
+        arrowOpen2.style.display ="none";
+
+        para3.style.display = "none";
+        arrowClose3.style.display = "block";
+        arrowOpen3.style.display ="none";
+
+        para4.style.display = "none";
+        arrowClose4.style.display = "block";
+        arrowOpen4.style.display ="none";
+
     } else {
         para1.style.display = "none";
         arrowOpen.style.display="none";
         arrowClose.style.display ="block";
+
+  
     }
 }
 
@@ -187,6 +158,20 @@ function openClose2(){
         para2.style.display = "block";
         arrowClose2.style.display = "none";
         arrowOpen2.style.display ="block";
+
+        para1.style.display = "none";
+        arrowClose.style.display = "block";
+        arrowOpen.style.display ="none";
+
+        para3.style.display = "none";
+        arrowClose3.style.display = "block";
+        arrowOpen3.style.display ="none";
+
+        para4.style.display = "none";
+        arrowClose4.style.display = "block";
+        arrowOpen4.style.display ="none";
+
+
     } else {
         para2.style.display = "none";
         arrowOpen2.style.display="none";
@@ -201,6 +186,20 @@ function openClose3(){
         para3.style.display = "block";
         arrowClose3.style.display = "none";
         arrowOpen3.style.display ="block";
+
+        para1.style.display = "none";
+        arrowClose.style.display = "block";
+        arrowOpen.style.display ="none";
+
+        para2.style.display = "none";
+        arrowClose2.style.display = "block";
+        arrowOpen2.style.display ="none";
+
+        para4.style.display = "none";
+        arrowClose4.style.display = "block";
+        arrowOpen4.style.display ="none";
+
+
     } else {
         para3.style.display = "none";
         arrowOpen3.style.display="none";
@@ -216,6 +215,19 @@ function openClose4(){
         para4.style.display = "block";
         arrowClose4.style.display = "none";
         arrowOpen4.style.display ="block";
+
+        para3.style.display = "none";
+        arrowClose3.style.display = "block";
+        arrowOpen3.style.display ="none";
+
+        para1.style.display = "none";
+        arrowClose.style.display = "block";
+        arrowOpen.style.display ="none";
+
+        para2.style.display = "none";
+        arrowClose2.style.display = "block";
+        arrowOpen2.style.display ="none";
+
     } else {
         para4.style.display = "none";
         arrowOpen4.style.display="none";

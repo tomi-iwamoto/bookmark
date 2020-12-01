@@ -102,9 +102,9 @@ main {
 /*---fade----*/
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 0.6s;
+  -webkit-animation-duration: 0.7s;
   animation-name: fade;
-  animation-duration: 0.6s;
+  animation-duration: 0.7s;
 }
 
 @-webkit-keyframes fade {
