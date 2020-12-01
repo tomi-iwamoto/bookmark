@@ -203,16 +203,18 @@ header {
 .header-buttons button {
   border:none;
   border-radius: 6px;
-  padding:20px;
+  padding:20px 15px;
   font-family: 'Rubik', sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   box-shadow: hsl(235, 23%, 90%) 5px 5px 5px;
+  width:40%;
 }
 
 #chrome-button {
   background-color:hsl(231, 69%, 60%);
   color:white;
+
 }
 
 /*---------FEATURES SECTION---------*/
@@ -260,24 +262,26 @@ header {
 }
 
 .divider1 {
-  width:30%;
   background-color: hsl(0, 94%, 66%);
   height:2px;
 }
 .divider2 {
-  width:30%;
   background-color: hsl(0, 94%, 66%);
   height:2px;
 }
 .divider3 {
-  width:30%;
   background-color: hsl(0, 94%, 66%);
   height:2px;
 }
 
 
 .features-wrap {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width:100%;
+  position: relative;
 }
 
 .features-button {
@@ -305,17 +309,23 @@ header {
   position: relative;
 }
 
-.features-img .features-img-background {
+.features-img-background {
   background-color: hsl(231, 69%, 60%);
   width:80%;
   height:210px;
   z-index:-1;
   position: absolute;
   left:0;
-  top:35px;
+  top:150px;
   border-bottom-right-radius: 100px;
 }
 
+.features-img-wrap {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .features-img img {
   width:85%;
 }
@@ -326,7 +336,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top:50px;
+  padding-top:100px;
 }
 
 .features-desc h3 {
