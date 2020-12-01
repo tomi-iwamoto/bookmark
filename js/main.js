@@ -22,19 +22,152 @@ let featuresImg2 = document.getElementById('featuresImg2');
 let featuresImg3 = document.getElementById('featuresImg3');
 
 
-function showfeaturesImg1(){
-    featuresImg1.style.display = "block";
-    featuresImg2.style.display = "none";
-    featuresImg3.style.display = "none";
+
+//carousel-----------------------------------
+
+
+let tab = document.getElementById("cat1-wrap");
+let tab2 = document.getElementById("cat2-wrap");
+let tab3 = document.getElementById("cat3-wrap");
+
+
+let featImg = document.getElementById("indFeaturesImg");
+let featImg2 = document.getElementById("indFeaturesImg2");
+let featImg3 = document.getElementById("indFeaturesImg3");
+
+let indicator1 = document.querySelector(".divider1");
+let indicator2 = document.querySelector(".divider2");
+let indicator3 = document.querySelector(".divider3");
+
+
+featImg2.style.display = "none";
+featImg3.style.display = "none";
+indicator1.style.display = "block";
+indicator2.style.display = "none";
+indicator3.style.display = "none";
+let amountToMove = "-500px";
+
+
+function slider(){
+    featImg.style.display = "flex";
+    featImg2.style.display = "none";
+    featImg3.style.display = "none";
+    indicator1.style.display = "block";
+    indicator2.style.display = "none";
+    indicator3.style.display = "none";
+
+    featImg.style.transform = "translateX(-" + amountToMove + ")";
 }
 
-cat1.addEventListener('click', showfeaturesImg1);
+
+tab.addEventListener("click", slider);
+
+
+function slider2(){
+    featImg.style.display = "none";
+    featImg2.style.display = "flex";
+    featImg3.style.display = "none";
+    indicator1.style.display = "none";
+    indicator2.style.display = "block";
+    indicator3.style.display = "none";
+
+    featImg2.style.transform = "translateX(-" + amountToMove + ")";
+}
+
+tab2.addEventListener("click", slider2);
+
+function slider3(){
+    featImg.style.display = "none";
+    featImg2.style.display = "none";
+    featImg3.style.display = "flex";
+    indicator1.style.display = "none";
+    indicator2.style.display = "none";
+    indicator3.style.display = "block"; 
+
+    featImg2.style.transform = "translateX(-" + amountToMove + ")";
+}
+
+
+tab3.addEventListener("click", slider3);
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//the features sections you click on
+// let dotsNav = document.querySelector(".features-tabs");
+// let dots = Array.from(dotsNav.children);
+
+// let imageSec = document.querySelector('.features-img');
+// const slides = Array.from(imageSec.children);
+
+
+// const slideWidth = slides[0].getBoundingClientRect().width;
+
+// const setSlidePosition = (slide, index) => {
+//     slide.style.left = slideWidth * index + "px";
+// };
+
+// slides.forEach(setSlidePosition);
+
+
+// const moveToSlide = (imageSec, currentSlide, targetSlide) => {
+//     imageSec.style.transform = "translateX(" + targetSlide.style.left + ")";
+//     currentSlide.classList.remove("currentSlide");
+//     targetSlide.classList.add("currentSlide");
+// }
+
+// moveToSlide();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function showfeaturesImg1(){
+//     featuresImg1.style.display = "block";
+//     featuresImg2.style.display = "none";
+//     featuresImg3.style.display = "none";
+// }
+
+// cat1.addEventListener('click', showfeaturesImg1);
+
+
+//function to open and close the faq questions section 
 function openClose(){
     if(para1.style.display === "none"){
         para1.style.display = "block";
