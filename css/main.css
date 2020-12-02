@@ -164,7 +164,7 @@ header {
   padding: 20px 20px 40px 20px;
 }
 
-/*--- mobile menu----*/
+/*--- SLIDER MENU----*/
 
 .menu-button {
   position: absolute;
@@ -173,10 +173,6 @@ header {
   background: transparent;
   border: none;
 }
-
-/* #hamburger {
-  width:6%;
-} */
 
 .slider-nav {
   width: 100%;
@@ -203,7 +199,6 @@ header {
   transform: translateX(100%);
   transition: transform ease-out 250ms;
 }
-
 
 nav ul {
   margin: 0;
@@ -262,10 +257,7 @@ nav ul a {
   padding: 0 20px;
 }
 
-
-/*---- mobile menu end---*/
-
-
+/*---- SLIDER END---*/
 
 
 #header-logo {
@@ -350,7 +342,7 @@ nav ul a {
 
 }
 
-/*---------FEATURES SECTION---------*/
+/*---------MOBILE FEATURES SECTION---------*/
 
 .features {
   margin-top: 50px;
@@ -408,7 +400,6 @@ nav ul a {
   background-color: hsl(0, 94%, 66%);
   height: 2px;
 }
-
 
 .features-wrap {
   display: flex;
@@ -493,7 +484,7 @@ nav ul a {
 }
 
 
-/*-----------EXTENSION SECTION ----------*/
+/*-----------MOBILE EXTENSION SECTION ----------*/
 
 .extension-sec {
   margin-top: 90px;
@@ -575,7 +566,7 @@ nav ul a {
   margin-top: 30px;
 }
 
-/*-------------FAQ SECTION----------*/
+/*-------------MOBILE FAQ SECTION----------*/
 
 .faq {
   width: 100%;
@@ -639,10 +630,7 @@ nav ul a {
   padding-bottom: 20px;
   font-family: 'Rubik', sans-serif;
   color: hsl(229, 8%, 60%);
-
-
 }
-
 
 .question-divider {
   width: 85%;
@@ -696,7 +684,7 @@ nav ul a {
 }
 
 
-/*-----------FOOTER------*/
+/*-----------MOBILE FOOTER------*/
 
 
 footer {
@@ -898,13 +886,13 @@ footer button {
   }
 
   .header-img img {
-    width:80%;
+    width: 80%;
   }
 
   .header-img .header-img-background {
-    top:160px;
-    height:350px;
-    width:70%;
+    top: 160px;
+    height: 350px;
+    width: 70%;
     border-bottom-left-radius: 140px;
   }
 
@@ -912,73 +900,74 @@ footer button {
     margin-bottom: 30px;
   }
 
-  /*----------features tablet section----*/
+  /*----------TABLET FEATURES SECTION ----*/
 
-.features-text {
-  width:70%;
-  margin-top: 60px;
-}
+  .features-text {
+    width: 70%;
+    margin-top: 60px;
+  }
+
   .features-img img {
-    width:65%;
+    width: 65%;
   }
 
   .features-img-background {
-    top:160px;
+    top: 160px;
     height: 320px;
-    width:70%;
+    width: 70%;
     border-bottom-right-radius: 140px;
   }
 
   .features-desc {
-    width:70%;
+    width: 70%;
     padding-top: 90px;
   }
 
 
 
-/*---------extension tablet section-----*/
+  /*----------TABLET EXTENSION SECTION ----*/
 
-.extension-sec {
-  margin-top: 180px;
-}
+  .extension-sec {
+    margin-top: 180px;
+  }
 
-.extension-text p {
-  width:70%;
-}
+  .extension-text p {
+    width: 70%;
+  }
 
-.search-engine-box {
-  width:45%;
-}
+  .search-engine-box {
+    width: 45%;
+  }
 
-/*---------faq tablet section-----*/
+  /*----------TABLET FAQ SECTION ----*/
 
-.faq-text {
-  width:70%;
-}
-
-
-/*---------footer tablet section-----*/
-
-footer .input-wrap {
-  width:50%;
-}
+  .faq-text {
+    width: 70%;
+  }
 
 
+  /*----------TABLET FOOTER ----*/
 
-/*---------slider tablet section-----*/
+  footer .input-wrap {
+    width: 50%;
+  }
 
-.slider-wrap {
-  width:70%;
-}
 
-.slider-nav {
-  height:90vh;
-}
 
-.slider-button {
-  width:30%;
-  margin-top: 50px;
-}
+  /*----------TABLET SLIDER STYLES ----*/
+
+  .slider-wrap {
+    width: 70%;
+  }
+
+  .slider-nav {
+    height: 90vh;
+  }
+
+  .slider-button {
+    width: 30%;
+    margin-top: 50px;
+  }
 
 }
 
@@ -1054,8 +1043,6 @@ footer .input-wrap {
     color: hsl(0, 94%, 66%);
     cursor: pointer;
   }
-
-
 
   .desktop-button {
     display: block;
@@ -1163,7 +1150,7 @@ footer .input-wrap {
   }
 
 
-  /*------FEATURES DESKTOP-----------*/
+  /*----------DESKTOP FEATURES SECTION ----*/
 
 
   .features {
@@ -1255,7 +1242,6 @@ footer .input-wrap {
     transition: transform 250ms ease-in;
   }
 
-
   .features-img img {
     width: 30%;
     margin-left: 120px;
@@ -1321,7 +1307,7 @@ footer .input-wrap {
   }
 
 
-  /*-----------EXTENSION DESKTOP---------*/
+  /*----------DESKTOP EXTENSION SECTION ----*/
 
   .extension-sec {
     margin-top: 210px;
@@ -1363,6 +1349,8 @@ footer .input-wrap {
     margin-top: 200px;
   }
 
+  /*----------DESKTOP FAQ SECTION ----*/
+
   .faq-quest:hover {
     color: hsl(0, 94%, 66%);
     cursor: pointer;
@@ -1401,7 +1389,7 @@ footer .input-wrap {
     font-size: 18px;
   }
 
-  /*-----------FOOTER ---------------*/
+  /*-----------DESKTOP FOOTER ---------------*/
 
   footer h2 {
     font-size: 35px;
