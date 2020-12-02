@@ -92,36 +92,6 @@ tab3.addEventListener("click", slider3);
 
 
 
-
-
-//the features sections you click on
-// let dotsNav = document.querySelector(".features-tabs");
-// let dots = Array.from(dotsNav.children);
-
-// let imageSec = document.querySelector('.features-img');
-// const slides = Array.from(imageSec.children);
-
-
-// const slideWidth = slides[0].getBoundingClientRect().width;
-
-// const setSlidePosition = (slide, index) => {
-//     slide.style.left = slideWidth * index + "px";
-// };
-
-// slides.forEach(setSlidePosition);
-
-
-// const moveToSlide = (imageSec, currentSlide, targetSlide) => {
-//     imageSec.style.transform = "translateX(" + targetSlide.style.left + ")";
-//     currentSlide.classList.remove("currentSlide");
-//     targetSlide.classList.add("currentSlide");
-// }
-
-// moveToSlide();
-
-
-
-
 //function to open and close the faq questions section 
 function openClose(){
     if(para1.style.display === "none"){
@@ -236,5 +206,19 @@ function openClose4(){
 }
 
 openClose4();
+
+
+/*--------slider nav--------*/
+
+const navToggle = document.querySelector(".menu-button")
+const closebtn = document.querySelector(".closebtn")
+
+navToggle.addEventListener("click", ()=> {
+    document.querySelector(".slider-nav").classList.add("nav-open")
+})
+
+closebtn.addEventListener("click", ()=> {
+    document.querySelector(".slider-nav").classList.remove("nav-open")
+})
 
 
