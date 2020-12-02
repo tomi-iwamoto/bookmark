@@ -974,8 +974,10 @@ footer .input-wrap {
 .slider-nav {
   height:90vh;
 }
+
 .slider-button {
-  width:40%;
+  width:30%;
+  margin-top: 50px;
 }
 
 }
