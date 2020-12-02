@@ -92,6 +92,7 @@ tab3.addEventListener("click", slider3);
 
 
 
+
 //function to open and close the faq questions section 
 function openClose(){
     if(para1.style.display === "none"){
@@ -117,7 +118,6 @@ function openClose(){
         arrowOpen.style.display="none";
         arrowClose.style.display ="block";
 
-  
     }
 }
 
