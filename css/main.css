@@ -140,6 +140,10 @@ header {
   align-items: center;
 }
 
+.header-wrap {
+  width:100%;
+}
+
 .desktop-nav {
   display: none;
 }
@@ -153,7 +157,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
 }
 
 .nav-bar {
@@ -162,14 +165,14 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 20px 40px 20px;
+  position: relative;
 }
 
 /*--- SLIDER MENU----*/
 
 .menu-button {
-  position: absolute;
-  top: 0.1em;
-  left: 18em;
+  top: 1em;
+  left: 10em;
   background: transparent;
   border: none;
 }
@@ -186,6 +189,7 @@ header {
 
   position: fixed;
   top: 0;
+  right:0;
   z-index: 1;
   transform: translateX(100%);
   transition: transform ease-out 250ms;
@@ -874,11 +878,11 @@ footer button {
   .menu-button {
     top: 0.7em;
     left: 35em;
-    width: 100%;
+    /* width: 100%; */
   }
 
   .menu-button svg {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .header-img {
