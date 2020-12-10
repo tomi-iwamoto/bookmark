@@ -99,7 +99,6 @@ function openClose(){
         para1.style.display = "block";
         arrowClose.style.display = "none";
         arrowOpen.style.display ="block";
-
               
         para2.style.display = "none";
         arrowClose2.style.display = "block";
