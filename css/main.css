@@ -624,6 +624,21 @@ nav ul a {
   padding: 20px 0;
   font-size: 15px;
 }
+.faq-quest2 {
+  font-family: 'Rubik', sans-serif;
+  padding: 20px 0;
+  font-size: 15px;
+}
+.faq-quest3 {
+  font-family: 'Rubik', sans-serif;
+  padding: 20px 0;
+  font-size: 15px;
+}
+.faq-quest4 {
+  font-family: 'Rubik', sans-serif;
+  padding: 20px 0;
+  font-size: 15px;
+}
 
 .faq-quest-wrap {
   width: 100%;
@@ -1380,8 +1395,32 @@ footer button {
   }
 
   /*----------DESKTOP FAQ SECTION ----*/
+  .faq-quest {
+    font-size: 18px;
+  }
+  .faq-quest2 {
+    font-size: 18px;
+  }
+  .faq-quest3 {
+    font-size: 18px;
+  }
+  .faq-quest4 {
+    font-size: 18px;
+  }
 
   .faq-quest:hover {
+    color: hsl(0, 94%, 66%);
+    cursor: pointer;
+  }
+  .faq-quest2:hover {
+    color: hsl(0, 94%, 66%);
+    cursor: pointer;
+  }
+  .faq-quest3:hover {
+    color: hsl(0, 94%, 66%);
+    cursor: pointer;
+  }
+  .faq-quest4:hover {
     color: hsl(0, 94%, 66%);
     cursor: pointer;
   }
@@ -1415,10 +1454,7 @@ footer button {
     width: 45%;
   }
 
-  .faq-quest {
-    font-size: 18px;
-  }
-
+  
   /*-----------DESKTOP FOOTER ---------------*/
 
   footer h2 {
