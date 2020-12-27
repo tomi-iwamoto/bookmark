@@ -27,69 +27,108 @@ let featuresImg3 = document.getElementById('featuresImg3');
 //carousel for features section-----------------------------------
 
 
-let tab = document.getElementById("cat1-wrap");
-let tab2 = document.getElementById("cat2-wrap");
-let tab3 = document.getElementById("cat3-wrap");
+// let tab = document.getElementById("cat1-wrap");
+// let tab2 = document.getElementById("cat2-wrap");
+// let tab3 = document.getElementById("cat3-wrap");
 
 
-let featImg = document.getElementById("indFeaturesImg");
-let featImg2 = document.getElementById("indFeaturesImg2");
-let featImg3 = document.getElementById("indFeaturesImg3");
+// let featImg = document.getElementById("indFeaturesImg");
+// let featImg2 = document.getElementById("indFeaturesImg2");
+// let featImg3 = document.getElementById("indFeaturesImg3");
 
-let indicator1 = document.querySelector(".divider1");
-let indicator2 = document.querySelector(".divider2");
-let indicator3 = document.querySelector(".divider3");
-
-
-featImg2.style.display = "none";
-featImg3.style.display = "none";
-indicator1.style.display = "block";
-indicator2.style.display = "none";
-indicator3.style.display = "none";
-let amountToMove = "-500px";
+// let indicator1 = document.querySelector(".divider1");
+// let indicator2 = document.querySelector(".divider2");
+// let indicator3 = document.querySelector(".divider3");
 
 
-function slider() {
-  featImg.style.display = "flex";
-  featImg2.style.display = "none";
-  featImg3.style.display = "none";
-  indicator1.style.display = "block";
-  indicator2.style.display = "none";
-  indicator3.style.display = "none";
-
-  featImg.style.transform = "translateX(-" + amountToMove + ")";
-}
+// featImg2.style.display = "none";
+// featImg3.style.display = "none";
+// indicator1.style.display = "block";
+// indicator2.style.display = "none";
+// indicator3.style.display = "none";
+// let amountToMove = "-500px";
 
 
-tab.addEventListener("click", slider);
+// function slider() {
+//   featImg.style.display = "flex";
+//   featImg2.style.display = "none";
+//   featImg3.style.display = "none";
+//   indicator1.style.display = "block";
+//   indicator2.style.display = "none";
+//   indicator3.style.display = "none";
+
+//   featImg.style.transform = "translateX(-" + amountToMove + ")";
+// }
 
 
-function slider2() {
-  featImg.style.display = "none";
-  featImg2.style.display = "flex";
-  featImg3.style.display = "none";
-  indicator1.style.display = "none";
-  indicator2.style.display = "block";
-  indicator3.style.display = "none";
-
-  featImg2.style.transform = "translateX(-" + amountToMove + ")";
-}
-
-tab2.addEventListener("click", slider2);
-
-function slider3() {
-  featImg.style.display = "none";
-  featImg2.style.display = "none";
-  featImg3.style.display = "flex";
-  indicator1.style.display = "none";
-  indicator2.style.display = "none";
-  indicator3.style.display = "block";
-
-  featImg2.style.transform = "translateX(-" + amountToMove + ")";
-}
+// tab.addEventListener("click", slider);
 
 
-tab3.addEventListener("click", slider3);
+// function slider2() {
+//   featImg.style.display = "none";
+//   featImg2.style.display = "flex";
+//   featImg3.style.display = "none";
+//   indicator1.style.display = "none";
+//   indicator2.style.display = "block";
+//   indicator3.style.display = "none";
+
+//   featImg2.style.transform = "translateX(-" + amountToMove + ")";
+// }
+
+// tab2.addEventListener("click", slider2);
+
+// function slider3() {
+//   featImg.style.display = "none";
+//   featImg2.style.display = "none";
+//   featImg3.style.display = "flex";
+//   indicator1.style.display = "none";
+//   indicator2.style.display = "none";
+//   indicator3.style.display = "block";
+
+//   featImg2.style.transform = "translateX(-" + amountToMove + ")";
+// }
+
+
+// tab3.addEventListener("click", slider3);
+
+
+$(document).ready(()=>{
+
+  $('#indFeaturesImg2').hide();
+  $('#indFeaturesImg3').hide();
+  $('.divider1').show();
+  $('.divider2').hide();
+  $('.divider3').hide();
+
+$('#cat1-wrap').on('click', ()=> {
+  $('#indFeaturesImg').fadeIn(600);
+  $('#indFeaturesImg2').hide();
+  $('#indFeaturesImg3').hide();
+  $('.divider1').show();
+  $('.divider2').hide();
+  $('.divider3').hide();
+})
+
+$('#cat2-wrap').on('click', ()=>{
+  $('#indFeaturesImg').hide();
+  $('#indFeaturesImg2').fadeIn(600);
+  $('#indFeaturesImg3').hide();
+  $('.divider1').hide();
+  $('.divider2').show();
+  $('.divider3').hide();
+})
+
+$('#cat3-wrap').on('click', ()=>{
+  $('#indFeaturesImg').hide();
+  $('#indFeaturesImg2').hide();
+  $('#indFeaturesImg3').fadeIn(600);
+  $('.divider1').hide();
+  $('.divider2').hide();
+  $('.divider3').show();
+})
+
+})
+
 
 
 

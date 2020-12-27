@@ -469,8 +469,41 @@ nav ul a {
   align-items: center;
   padding-top: 100px;
 }
+.features-desc2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.features-desc3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
 
 .features-desc h3 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.features-desc2 h3 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.features-desc3 h3 {
   font-family: 'Rubik', sans-serif;
   font-size: 27px;
   font-weight: 500;
@@ -484,8 +517,22 @@ nav ul a {
   width: 90%;
   color: hsl(229, 8%, 60%);
   line-height: 27px;
-
 }
+.features-desc2 p {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  width: 90%;
+  color: hsl(229, 8%, 60%);
+  line-height: 27px;
+}
+.features-desc3 p {
+  font-family: 'Rubik', sans-serif;
+  text-align: center;
+  width: 90%;
+  color: hsl(229, 8%, 60%);
+  line-height: 27px;
+}
+
 
 
 /*-----------MOBILE EXTENSION SECTION ----------*/
@@ -928,8 +975,18 @@ footer button {
   }
 
   .main-title-sec p {
-    margin-bottom: 30px;
+    margin-bottom: 34px;
+    font-size: 22px;
   }
+
+  #chrome-button {
+    font-size: 18px;
+  }
+
+  .header-buttons button {
+    font-size: 18px;
+  }
+
 
   /*----------TABLET FEATURES SECTION ----*/
 
@@ -938,23 +995,62 @@ footer button {
     margin-top: 60px;
   }
 
+  .features-text h3 {
+    font-size: 32px;
+  }
+
+  .features-text p {
+    font-size: 22px;
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+  .features-category {
+    font-size: 22px;
+  }
+
   .features-img img {
     width: 65%;
+    padding-top: 20px;
   }
 
   .features-img-background {
-    top: 160px;
+    top: 200px;
     height: 320px;
     width: 70%;
     border-bottom-right-radius: 140px;
   }
 
-  .features-desc {
-    width: 70%;
-    padding-top: 90px;
+  #featuresImg1 {
+    margin-top: 50px;
   }
 
+  .features-desc {
+    width: 70%;
+    padding-top: 100px;
+  }
+  .features-desc2 {
+    width: 70%;
+    padding-top: 30px;
+  }
+  .features-desc3 {
+    width: 70%;
+    padding-top: 30px;
+  }
 
+.features-desc p {
+  font-size: 22px;
+}
+.features-desc2 p {
+  font-size: 22px;
+}
+.features-desc3 p {
+  font-size: 22px;
+}
+
+.features-desc h3 {
+  font-size: 32px;
+}
 
   /*----------TABLET EXTENSION SECTION ----*/
 
@@ -962,12 +1058,21 @@ footer button {
     margin-top: 180px;
   }
 
+  .extension-text h3 {
+    font-size: 32px;
+  }
+
   .extension-text p {
     width: 70%;
+    font-size: 22px;
   }
 
   .search-engine-box {
     width: 45%;
+  }
+
+  .search-engine-box button {
+    font-size: 18px;
   }
 
   /*----------TABLET FAQ SECTION ----*/
@@ -976,6 +1081,35 @@ footer button {
     width: 70%;
   }
 
+  .faq-text h3 {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .faq-text p {
+    font-size: 22px;
+  }
+
+  .faq-quest {
+    font-size: 22px;
+  }
+  .faq-quest2 {
+    font-size: 22px;
+  }
+  .faq-quest3 {
+    font-size: 22px;
+  }
+  .faq-quest4 {
+    font-size: 22px;
+  }
+
+  .quest-para {
+    font-size: 20px;
+  }
+
+  .faq button {
+    font-size: 18px;
+  }
 
   /*----------TABLET FOOTER ----*/
 
@@ -983,7 +1117,13 @@ footer button {
     width: 50%;
   }
 
+  footer button {
+    font-size: 18px;
+  }
 
+  footer p, h2 {
+    font-size: 20px;
+  }
 
   /*----------TABLET SLIDER STYLES ----*/
 
@@ -1336,6 +1476,16 @@ footer button {
     align-items: flex-start;
     width: 40%;
   }
+  .features-desc2 {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+  }
+  .features-desc3 {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+  }
 
   .features-desc p {
     text-align: left;
@@ -1343,8 +1493,28 @@ footer button {
     font-size: 18px;
     line-height: 32px;
   }
+  .features-desc2 p {
+    text-align: left;
+    width: 70%;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .features-desc3 p {
+    text-align: left;
+    width: 70%;
+    font-size: 18px;
+    line-height: 32px;
+  }
 
   .features-desc h3 {
+    font-size: 35px;
+  }
+
+  .features-desc2 h3 {
+    font-size: 35px;
+  }
+
+  .features-desc3 h3 {
     font-size: 35px;
   }
 
@@ -1442,7 +1612,7 @@ footer button {
   }
 
   .faq-text p {
-    width: 35%;
+    width: 40%;
     font-size: 18px;
     line-height: 32px;
     text-align: center;
