@@ -1,4 +1,3 @@
-
 //faq section variables 
 let para1 = document.getElementById('paragraph1');
 let para2 = document.getElementById('paragraph2');
@@ -50,43 +49,43 @@ indicator3.style.display = "none";
 let amountToMove = "-500px";
 
 
-function slider(){
-    featImg.style.display = "flex";
-    featImg2.style.display = "none";
-    featImg3.style.display = "none";
-    indicator1.style.display = "block";
-    indicator2.style.display = "none";
-    indicator3.style.display = "none";
+function slider() {
+  featImg.style.display = "flex";
+  featImg2.style.display = "none";
+  featImg3.style.display = "none";
+  indicator1.style.display = "block";
+  indicator2.style.display = "none";
+  indicator3.style.display = "none";
 
-    featImg.style.transform = "translateX(-" + amountToMove + ")";
+  featImg.style.transform = "translateX(-" + amountToMove + ")";
 }
 
 
 tab.addEventListener("click", slider);
 
 
-function slider2(){
-    featImg.style.display = "none";
-    featImg2.style.display = "flex";
-    featImg3.style.display = "none";
-    indicator1.style.display = "none";
-    indicator2.style.display = "block";
-    indicator3.style.display = "none";
+function slider2() {
+  featImg.style.display = "none";
+  featImg2.style.display = "flex";
+  featImg3.style.display = "none";
+  indicator1.style.display = "none";
+  indicator2.style.display = "block";
+  indicator3.style.display = "none";
 
-    featImg2.style.transform = "translateX(-" + amountToMove + ")";
+  featImg2.style.transform = "translateX(-" + amountToMove + ")";
 }
 
 tab2.addEventListener("click", slider2);
 
-function slider3(){
-    featImg.style.display = "none";
-    featImg2.style.display = "none";
-    featImg3.style.display = "flex";
-    indicator1.style.display = "none";
-    indicator2.style.display = "none";
-    indicator3.style.display = "block"; 
+function slider3() {
+  featImg.style.display = "none";
+  featImg2.style.display = "none";
+  featImg3.style.display = "flex";
+  indicator1.style.display = "none";
+  indicator2.style.display = "none";
+  indicator3.style.display = "block";
 
-    featImg2.style.transform = "translateX(-" + amountToMove + ")";
+  featImg2.style.transform = "translateX(-" + amountToMove + ")";
 }
 
 
@@ -101,7 +100,7 @@ tab3.addEventListener("click", slider3);
 //         para1.style.display = "block";
 //         arrowClose.style.display = "none";
 //         arrowOpen.style.display ="block";
-              
+
 //         para2.style.display = "none";
 //         arrowClose2.style.display = "block";
 //         arrowOpen2.style.display ="none";
@@ -209,94 +208,102 @@ tab3.addEventListener("click", slider3);
 // openClose4();
 
 $(document).ready(() => {
-//the first faq question and paragraph
+  //the first faq question and paragraph
+  $('#arrowClose').show();
+  $('#arrowOpen').hide();
+  $('#paragraph1').hide();
+
+  $('.faq-quest').on('click', () => {
+    $('#paragraph1').slideToggle();
+    $('#arrowClose').toggle();
+    $('#arrowOpen').toggle();
+  })
+
+  $('#arrowClose').on('click', () => {
+    $('#arrowClose').hide();
+    $('#arrowOpen').show();
+    $('#paragraph1').slideToggle();
+
+  })
+
+  $('#arrowOpen').on('click', () => {
     $('#arrowClose').show();
     $('#arrowOpen').hide();
-    $('#paragraph1').hide();
+    $('#paragraph1').slideToggle();
+  })
 
-    $('.faq-quest').on('click', () => {
-        $('#paragraph1').slideToggle();
-    })
+  //the second faq question and paragraph
+  $('#arrowClose2').show();
+  $('#arrowOpen2').hide();
+  $('#paragraph2').hide();
 
-    $('#arrowClose').on('click', ()=>{
-        $('#arrowClose').hide();
-        $('#arrowOpen').show();
-        $('#paragraph1').slideToggle();
-
-    })
-
-    $('#arrowOpen').on('click', () => {
-        $('#arrowClose').show();
-        $('#arrowOpen').hide();
-        $('#paragraph1').slideToggle();
-    })
-
-//the second faq question and paragraph
-$('#arrowClose2').show();
-$('#arrowOpen2').hide();
-$('#paragraph2').hide();
-
-$('.faq-quest2').on('click', () => {
+  $('.faq-quest2').on('click', () => {
     $('#paragraph2').slideToggle();
-})
+    $('#arrowClose2').toggle();
+    $('#arrowOpen2').toggle();
+  })
 
-$('#arrowClose2').on('click', ()=>{
+  $('#arrowClose2').on('click', () => {
     $('#arrowClose2').hide();
     $('#arrowOpen2').show();
     $('#paragraph2').slideToggle();
 
-})
+  })
 
-$('#arrowOpen2').on('click', () => {
+  $('#arrowOpen2').on('click', () => {
     $('#arrowClose2').show();
     $('#arrowOpen2').hide();
     $('#paragraph2').slideToggle();
-})
+  })
 
-//the third faq question and paragraph
+  //the third faq question and paragraph
 
-$('#arrowClose3').show();
-$('#arrowOpen3').hide();
-$('#paragraph3').hide();
+  $('#arrowClose3').show();
+  $('#arrowOpen3').hide();
+  $('#paragraph3').hide();
 
-$('.faq-quest3').on('click', () => {
+  $('.faq-quest3').on('click', () => {
     $('#paragraph3').slideToggle();
-})
+    $('#arrowClose3').toggle();
+    $('#arrowOpen3').toggle();
+  })
 
-$('#arrowClose3').on('click', ()=>{
+  $('#arrowClose3').on('click', () => {
     $('#arrowClose3').hide();
     $('#arrowOpen3').show();
     $('#paragraph3').slideToggle();
 
-})
+  })
 
-$('#arrowOpen3').on('click', () => {
+  $('#arrowOpen3').on('click', () => {
     $('#arrowClose3').show();
     $('#arrowOpen3').hide();
     $('#paragraph3').slideToggle();
-})
+  })
 
-//the fourth faq question and paragraph
+  //the fourth faq question and paragraph
 
-$('#arrowClose4').show();
-$('#arrowOpen4').hide();
-$('#paragraph4').hide();
+  $('#arrowClose4').show();
+  $('#arrowOpen4').hide();
+  $('#paragraph4').hide();
 
-$('.faq-quest4').on('click', () => {
+  $('.faq-quest4').on('click', () => {
     $('#paragraph4').slideToggle();
-})
+    $('#arrowClose4').toggle();
+    $('#arrowOpen4').toggle();
+  })
 
-$('#arrowClose4').on('click', ()=>{
+  $('#arrowClose4').on('click', () => {
     $('#arrowClose4').hide();
     $('#arrowOpen4').show();
     $('#paragraph4').slideToggle();
-})
+  })
 
-$('#arrowOpen4').on('click', () => {
+  $('#arrowOpen4').on('click', () => {
     $('#arrowClose4').show();
     $('#arrowOpen4').hide();
     $('#paragraph4').slideToggle();
-})
+  })
 
 
 
@@ -309,12 +316,10 @@ $('#arrowOpen4').on('click', () => {
 const navToggle = document.querySelector(".menu-button")
 const closebtn = document.querySelector(".closebtn")
 
-navToggle.addEventListener("click", ()=> {
-    document.querySelector(".slider-nav").classList.add("nav-open")
+navToggle.addEventListener("click", () => {
+  document.querySelector(".slider-nav").classList.add("nav-open")
 })
 
-closebtn.addEventListener("click", ()=> {
-    document.querySelector(".slider-nav").classList.remove("nav-open")
+closebtn.addEventListener("click", () => {
+  document.querySelector(".slider-nav").classList.remove("nav-open")
 })
-
-
