@@ -141,7 +141,7 @@ header {
 }
 
 .header-wrap {
-  width:100%;
+  width: 100%;
 }
 
 .desktop-nav {
@@ -189,7 +189,7 @@ header {
 
   position: fixed;
   top: 0;
-  right:0;
+  right: 0;
   z-index: 1;
   transform: translateX(100%);
   transition: transform ease-out 250ms;
@@ -469,6 +469,7 @@ nav ul a {
   align-items: center;
   padding-top: 100px;
 }
+
 .features-desc2 {
   width: 100%;
   display: flex;
@@ -518,6 +519,7 @@ nav ul a {
   color: hsl(229, 8%, 60%);
   line-height: 27px;
 }
+
 .features-desc2 p {
   font-family: 'Rubik', sans-serif;
   text-align: center;
@@ -525,6 +527,7 @@ nav ul a {
   color: hsl(229, 8%, 60%);
   line-height: 27px;
 }
+
 .features-desc3 p {
   font-family: 'Rubik', sans-serif;
   text-align: center;
@@ -590,7 +593,7 @@ nav ul a {
   margin: 30px 0;
   padding: 50px 0 30px 0;
   border-radius: 15px;
-  
+
 }
 
 .search-engine-box h4 {
@@ -616,7 +619,7 @@ nav ul a {
   background-color: hsl(231, 69%, 60%);
   color: white;
   margin-top: 30px;
-  border:transparent solid 2px;
+  border: transparent solid 2px;
 
   transition-duration: 250ms;
 }
@@ -671,16 +674,19 @@ nav ul a {
   padding: 20px 0;
   font-size: 15px;
 }
+
 .faq-quest2 {
   font-family: 'Rubik', sans-serif;
   padding: 20px 0;
   font-size: 15px;
 }
+
 .faq-quest3 {
   font-family: 'Rubik', sans-serif;
   padding: 20px 0;
   font-size: 15px;
 }
+
 .faq-quest4 {
   font-family: 'Rubik', sans-serif;
   padding: 20px 0;
@@ -751,7 +757,7 @@ nav ul a {
   background-color: hsl(231, 69%, 60%);
   color: white;
   margin: 50px 0 120px;
-  border:transparent solid 2px;
+  border: transparent solid 2px;
 
   transition-duration: 250ms;
 }
@@ -952,12 +958,8 @@ footer button {
   .menu-button {
     top: 0.7em;
     left: 35em;
-    /* width: 100%; */
   }
 
-  .menu-button svg {
-    /* width: 100%; */
-  }
 
   .header-img {
     height: 55vh;
@@ -1029,28 +1031,32 @@ footer button {
     width: 70%;
     padding-top: 100px;
   }
+
   .features-desc2 {
     width: 70%;
     padding-top: 30px;
   }
+
   .features-desc3 {
     width: 70%;
     padding-top: 30px;
   }
 
-.features-desc p {
-  font-size: 22px;
-}
-.features-desc2 p {
-  font-size: 22px;
-}
-.features-desc3 p {
-  font-size: 22px;
-}
+  .features-desc p {
+    font-size: 22px;
+  }
 
-.features-desc h3 {
-  font-size: 32px;
-}
+  .features-desc2 p {
+    font-size: 22px;
+  }
+
+  .features-desc3 p {
+    font-size: 22px;
+  }
+
+  .features-desc h3 {
+    font-size: 32px;
+  }
 
   /*----------TABLET EXTENSION SECTION ----*/
 
@@ -1093,12 +1099,15 @@ footer button {
   .faq-quest {
     font-size: 22px;
   }
+
   .faq-quest2 {
     font-size: 22px;
   }
+
   .faq-quest3 {
     font-size: 22px;
   }
+
   .faq-quest4 {
     font-size: 22px;
   }
@@ -1121,7 +1130,8 @@ footer button {
     font-size: 18px;
   }
 
-  footer p, h2 {
+  footer p,
+  h2 {
     font-size: 20px;
   }
 
@@ -1141,18 +1151,20 @@ footer button {
   }
 
 }
+
 @media only screen and (min-width: 900px) {
 
   .header-img {
     height: 70vh;
-}
-.header-img .header-img-background {
-  top:185px;
-}
+  }
 
-.header-img img {
-  width: 75%;
-}
+  .header-img .header-img-background {
+    top: 185px;
+  }
+
+  .header-img img {
+    width: 75%;
+  }
 }
 
 
@@ -1312,7 +1324,7 @@ footer button {
   .header-buttons button {
     font-size: 16px;
     padding-top: 20px;
-    border:transparent solid 2px;
+    border: transparent solid 2px;
 
     transition-duration: 250ms;
   }
@@ -1408,10 +1420,8 @@ footer button {
   }
 
   .features-img {
-    /* position: relative; */
     transition: transform 250ms ease-in;
     width: 100%;
-    /* overflow: hidden; */
   }
 
   .features-img-wrap {
@@ -1459,7 +1469,7 @@ footer button {
     background-color: hsl(231, 69%, 60%);
     color: white;
     margin-top: 20px;
-    border:transparent solid 2px;
+    border: transparent solid 2px;
 
     transition-duration: 250ms;
   }
@@ -1476,11 +1486,13 @@ footer button {
     align-items: flex-start;
     width: 40%;
   }
+
   .features-desc2 {
     flex-direction: column;
     align-items: flex-start;
     width: 40%;
   }
+
   .features-desc3 {
     flex-direction: column;
     align-items: flex-start;
@@ -1493,12 +1505,14 @@ footer button {
     font-size: 18px;
     line-height: 32px;
   }
+
   .features-desc2 p {
     text-align: left;
     width: 70%;
     font-size: 18px;
     line-height: 32px;
   }
+
   .features-desc3 p {
     text-align: left;
     width: 70%;
@@ -1580,12 +1594,15 @@ footer button {
   .faq-quest {
     font-size: 18px;
   }
+
   .faq-quest2 {
     font-size: 18px;
   }
+
   .faq-quest3 {
     font-size: 18px;
   }
+
   .faq-quest4 {
     font-size: 18px;
   }
@@ -1594,14 +1611,17 @@ footer button {
     color: hsl(0, 94%, 66%);
     cursor: pointer;
   }
+
   .faq-quest2:hover {
     color: hsl(0, 94%, 66%);
     cursor: pointer;
   }
+
   .faq-quest3:hover {
     color: hsl(0, 94%, 66%);
     cursor: pointer;
   }
+
   .faq-quest4:hover {
     color: hsl(0, 94%, 66%);
     cursor: pointer;
@@ -1636,7 +1656,7 @@ footer button {
     width: 45%;
   }
 
-  
+
   /*-----------DESKTOP FOOTER ---------------*/
 
   footer h2 {
