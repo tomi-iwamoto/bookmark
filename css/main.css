@@ -1029,7 +1029,7 @@ footer button {
 
   .features-desc {
     width: 70%;
-    padding-top: 100px;
+    padding-top: 120px;
   }
 
   .features-desc2 {
@@ -1061,7 +1061,7 @@ footer button {
   /*----------TABLET EXTENSION SECTION ----*/
 
   .extension-sec {
-    margin-top: 180px;
+    margin-top: 80px;
   }
 
   .extension-text h3 {
@@ -1073,8 +1073,13 @@ footer button {
     font-size: 22px;
   }
 
+  .search-engines {
+    margin: 80px;
+  }
+
   .search-engine-box {
     width: 45%;
+    margin: 50px;
   }
 
   .search-engine-box button {
@@ -1142,7 +1147,7 @@ footer button {
   }
 
   .slider-nav {
-    height: 90vh;
+    height: 100vh;
   }
 
   .slider-button {
@@ -1356,7 +1361,7 @@ footer button {
 
 
   .features {
-    margin-top: 220px;
+    margin-top: 100px;
   }
 
   .features-text {
